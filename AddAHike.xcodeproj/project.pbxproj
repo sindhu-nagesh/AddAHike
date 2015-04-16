@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5413A08A1ACFDA4500446C67 /* HikeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5413A0891ACFDA4500446C67 /* HikeDetails.swift */; };
+		5472B15E1ACDEF1E008E18DC /* MyHikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472B15D1ACDEF1E008E18DC /* MyHikesViewController.swift */; };
+		5472B1601ACE2507008E18DC /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5472B15F1ACE2507008E18DC /* MyCell.swift */; };
 		54D309E81ACD02570008BAE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D309E71ACD02570008BAE1 /* AppDelegate.swift */; };
 		54D309EA1ACD02570008BAE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D309E91ACD02570008BAE1 /* ViewController.swift */; };
 		54D309ED1ACD02570008BAE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54D309EB1ACD02570008BAE1 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5413A0891ACFDA4500446C67 /* HikeDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HikeDetails.swift; path = ../HikeDetails.swift; sourceTree = "<group>"; };
+		5472B15D1ACDEF1E008E18DC /* MyHikesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHikesViewController.swift; sourceTree = "<group>"; };
+		5472B15F1ACE2507008E18DC /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 		54D309E21ACD02570008BAE1 /* AddAHike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddAHike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D309E61ACD02570008BAE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54D309E71ACD02570008BAE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +85,12 @@
 			children = (
 				54D309E71ACD02570008BAE1 /* AppDelegate.swift */,
 				54D309E91ACD02570008BAE1 /* ViewController.swift */,
+				5472B15D1ACDEF1E008E18DC /* MyHikesViewController.swift */,
 				54D309EB1ACD02570008BAE1 /* Main.storyboard */,
 				54D309EE1ACD02570008BAE1 /* Images.xcassets */,
 				54D309F01ACD02570008BAE1 /* LaunchScreen.xib */,
 				54D309E51ACD02570008BAE1 /* Supporting Files */,
+				5472B15F1ACE2507008E18DC /* MyCell.swift */,
 			);
 			path = AddAHike;
 			sourceTree = "<group>";
@@ -90,6 +98,7 @@
 		54D309E51ACD02570008BAE1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5413A0891ACFDA4500446C67 /* HikeDetails.swift */,
 				54D309E61ACD02570008BAE1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				54D309EA1ACD02570008BAE1 /* ViewController.swift in Sources */,
+				5472B1601ACE2507008E18DC /* MyCell.swift in Sources */,
+				5413A08A1ACFDA4500446C67 /* HikeDetails.swift in Sources */,
 				54D309E81ACD02570008BAE1 /* AppDelegate.swift in Sources */,
+				5472B15E1ACDEF1E008E18DC /* MyHikesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +417,7 @@
 				54D30A031ACD02570008BAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54D30A041ACD02570008BAE1 /* Build configuration list for PBXNativeTarget "AddAHikeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				54D30A061ACD02570008BAE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
